@@ -38,3 +38,6 @@
 
 @import "object/utility/display.css";
 @import "object/utility/align.css";
+
+/* highlight.js */
+@import "highlight.js/styles/atom-one-light.css";

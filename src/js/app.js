@@ -1,7 +1,9 @@
-const $ = window.jQuery
+import hljs from 'highlight.js'
 require('zoom.js')
 require('./zoom/transition.js')
 require('slick-carousel')
+
+const $ = window.jQuery
 
 $(() => {
   $('#slider').slick({
@@ -14,4 +16,6 @@ $(() => {
       }
     }]
   })
+
+  hljs.initHighlightingOnLoad()
 })
